@@ -1,146 +1,219 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,50:7C3AED,100:EC4899&height=200&section=header&text=MindMate&fontSize=70&fontColor=white&animation=twinkling" />
+
 # 🧠 MindMate
 ## 아주대학교 학생들을 위한 고민 상담 & 정보 공유 플랫폼
 
-**🤝 MindMate는 아주대학교 재학생과 졸업생이 고민을 나누고 정보를 공유할 수 있는 1:1 매칭 기반 상담 플랫폼입니다.**
+[![GitHub](https://img.shields.io/badge/GitHub-capstone--mindmate-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/capstone-mindmate)
+[![Website](https://img.shields.io/badge/Website-mindmate.shop-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mindmate.shop)
 
-- **GitHub URL**: https://github.com/capstone-mindmate
-- **Service URL**: https://mindmate.shop
+</div>
 
 ---
 
 ## 👥 팀원 소개
 
+<div align="center">
+
 **Team: 석지원, 조대희, 권세빈, 한지원**
 
-| 이름 | 역할              | 학번        | 이메일                  |
-|------|-----------------|-----------|----------------------|
-| 👑 [@석지원](https://github.com/) | Infra, Frontend |           | -                    |
-| 🔧 [@조대희](https://github.com/) | Backend         | 202020722 | joedaehui@ajou.ac.kr |
-| 💻 [@권세빈](https://github.com/) | Frontend        |           | -                    |
-| 🎨 [@한지원](https://github.com/) | Backend         |           | -                    |
+<table>
+<tr>
+<td align="center" width="150">
+<img src="https://github.com/skfnxhjjj.png" width="80" style="border-radius: 50%"/><br/>
+<sub><b>👑 석지원</b></sub><br/>
+<sub>Infra, Frontend</sub><br/>
+<img src="https://img.shields.io/badge/Leader-FF6B6B?style=flat-square&logoColor=white"/>
+</td>
+<td align="center" width="150">
+<img src="https://github.com/unie12.png" width="80" style="border-radius: 50%"/><br/>
+<sub><b>🔧 조대희</b></sub><br/>
+<sub>Backend</sub><br/>
+<sub>202020722</sub><br/>
+<sub>joedaehui@ajou.ac.kr</sub>
+</td>
+<td align="center" width="150">
+<img src="https://github.com/sebeeeen.png" width="80" style="border-radius: 50%"/><br/>
+<sub><b>💻 권세빈</b></sub><br/>
+<sub>Frontend</sub><br/>
+</td>
+<td align="center" width="150">
+<img src="https://github.com/1-J-1.png" width="80" style="border-radius: 50%"/><br/>
+<sub><b>🎨 한지원</b></sub><br/>
+<sub>Backend</sub><br/>
+</td>
+</tr>
+</table>
 
-**지도교수**: 윤대균 교수  
-**멘토**: 이준수 (현대오토에버)
+**지도교수**: 윤대균 교수 | **멘토**: 이준수 (현대오토에버)
+
+</div>
 
 ---
 
 ## 🎯 프로젝트 소개
 
-### 💡 개발 동기 및 목적
+<details>
+<summary>💡 <b>개발 동기 및 목적</b> 클릭하여 자세히 보기</summary>
 
 | 구분 | 내용 |
 |------|------|
-| **Target** | 다양한 고민과 정보를 나누고자 하는 대학교 재학생과 졸업생 |
-| **Problem** | 1. 대면 상담의 심리적/물리적 접근성 어려움<br>2. 재학생과 졸업생의 정보 불균형 및 소통 채널 부재<br>3. 익명 커뮤니티의 무책임한 피드백과 낮은 신뢰성 |
-| **Solution** | 1. 리스너/스피커 역할 선택 후 수동/랜덤 매칭 기능<br>2. 시간적/공간적 제약 없는 비대면 채팅 상담 기능<br>3. 정보 공유를 위한 매거진 기능<br>4. 포인트 기반 보상 체계로 지속적인 참여 유도 |
+| **🎯 Target** | 다양한 고민과 정보를 나누고자 하는 대학교 재학생과 졸업생 |
+| **❗ Problem** | 1. 대면 상담의 심리적/물리적 접근성 어려움<br>2. 재학생과 졸업생의 정보 불균형 및 소통 채널 부재<br>3. 익명 커뮤니티의 무책임한 피드백과 낮은 신뢰성 |
+| **✅ Solution** | 1. 리스너/스피커 역할 선택 후 수동/랜덤 매칭 기능<br>2. 시간적/공간적 제약 없는 비대면 채팅 상담 기능<br>3. 정보 공유를 위한 매거진 기능<br>4. 포인트 기반 보상 체계로 지속적인 참여 유도 |
+
+</details>
 
 ### 🌟 프로젝트 특장점
 
-- **안전한 소통 환경**: 아주대학교 이메일 인증을 통한 신뢰성 확보
-- **맞춤형 매칭**: 고민 카테고리와 사용자 특성 기반 지능형 매칭
-- **익명성 보장**: 개인정보 보호를 위한 선택적 익명 기능
-- **지속가능한 참여**: 포인트 시스템을 통한 동기 부여 및 선순환 구조
+<div align="center">
 
----
-
-## 🌳 주요 기능
-
-### 🔍 핵심 기능
-
-#### 1. **1:1 매칭 시스템**
-- **수동 매칭**: 사용자가 직접 고민 내용을 작성하고 적합한 상담자 선택
-- **자동 매칭**: AI 기반 지능형 매칭으로 즉시 상담자 연결
-- **카테고리별 분류**: 학업, 진로, 대인관계, 정신건강, 캠퍼스생활 등
-
-#### 2. **실시간 채팅 상담**
-- **WebSocket 기반 실시간 통신**
-- **이모티콘 및 감정 표현 기능**
-- **커스텀폼을 통한 구조화된 상담**
-- **메시지 필터링 및 신고 시스템**
-
-#### 3. **매거진 정보 공유**
-- **경험 기반 정보 공유**: 사용자의 실제 경험을 바탕으로 한 정보 제공
-- **카테고리별 분류**: 체계적인 정보 접근 및 검색
-- **관리자 검수**: 정보의 질과 신뢰성 보장
-- **인기 매거진**: 좋아요 기반 양질의 콘텐츠 추천
-
-#### 4. **포인트 및 리워드 시스템**
-- **포인트 획득**: 상담 참여, 매거진 작성을 통한 포인트 적립
-- **다양한 혜택**: 기프티콘, 이모티콘, 상담권 등으로 포인트 사용
-- **선순환 구조**: 스피커↔리스너 역할 전환을 통한 지속적 참여
-
-#### 5. **평가 및 리뷰 시스템**
-- **상호 평가**: 상담 후 양방향 피드백 시스템
-- **태그 기반 평가**: 간편하고 구체적인 평가 방식
-- **신뢰도 관리**: 평점과 리뷰를 통한 상담자 신뢰도 구축
-
----
-
-## 🏛️ 시스템 아키텍처
-
-### 📊 전체 시스템 개요
-
-```
-사용자 ↔ React PWA ↔ Spring Boot ↔ MySQL/Redis ↔ External APIs
-                    ↕
-               AWS Infrastructure
+```mermaid
+graph TD
+    A[🔒 안전한 소통 환경] --> B[아주대학교 이메일 인증]
+    C[🎯 맞춤형 매칭] --> D[AI 기반 지능형 매칭]
+    E[👤 익명성 보장] --> F[선택적 익명 기능]
+    G[🔄 지속가능한 참여] --> H[포인트 시스템]
 ```
 
-### 🔧 핵심 아키텍처
-
-#### **멀티레이어 아키텍처**
-- **프레젠테이션 레이어**: React PWA + TypeScript
-- **비즈니스 로직 레이어**: Spring Boot + Java
-- **데이터 액세스 레이어**: Spring Data JPA + QueryDSL
-- **데이터 저장 레이어**: MySQL + Redis
-
-#### **마이크로서비스 지향 설계**
-- **매칭 서비스**: 사용자 매칭 및 상담방 관리
-- **채팅 서비스**: 실시간 메시징 및 WebSocket 통신
-- **매거진 서비스**: 정보 공유 및 콘텐츠 관리
-- **포인트 서비스**: 리워드 및 포인트 관리
+</div>
 
 ---
 
 ## 💻 기술 스택
 
 ### 🖥️ Frontend
-| 기술 | 사용 이유 |
-|------|-----------|
-| **React** | 컴포넌트 기반 아키텍처로 복잡한 UI/UX 효과적 구현 |
-| **TypeScript** | 정적 타입 언어로 코드 안정성 및 개발 생산성 향상 |
-| **Zustand** | 최소한의 보일러플레이트로 복잡한 상태 관리 |
-| **React-Query** | REST API 처리 효율성과 데이터 캐싱 최적화 |
-| **@Emotion** | 동적 스타일링으로 상황별 실시간 UI 변화 구현 |
-| **PWA** | 모바일 친화적 웹 애플리케이션 경험 제공 |
+<div align="center">
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logo=react&logoColor=white)
+![React Query](https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react&logoColor=white)
+![Emotion](https://img.shields.io/badge/Emotion-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
+
+</div>
 
 ### ⚙️ Backend
-| 기술 | 사용 이유 |
-|------|-----------|
-| **Spring Boot** | 설정 자동화와 생산성 향상, 강력한 의존성 주입 |
-| **Java 17** | 장기 지원 보장 및 최신 기능으로 안정적 성능 개선 |
-| **MySQL** | 관계형 데이터 모델의 복잡한 데이터 관계 표현 |
-| **Redis** | 인메모리 캐싱 및 실시간 채팅을 위한 Pub/Sub 메시징 |
-| **Kafka** | 비동기 이벤트 처리 및 서비스 간 메시징 |
-| **WebSocket & STOMP** | 실시간 양방향 통신 및 표준화된 메시지 형식 |
+<div align="center">
+
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Java](https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-4F4F4F?style=for-the-badge&logo=websocket&logoColor=white)
+
+</div>
 
 ### 🌐 Infrastructure
-| 기술 | 사용 이유 |
-|------|-----------|
-| **AWS** | 안정적인 클라우드 인프라 및 다양한 서비스 제공 |
-| **Docker** | 컨테이너화를 통한 일관된 개발/배포 환경 |
-| **K3s** | 경량화된 쿠버네티스로 AWS 프리티어에서도 운영 가능 |
-| **ArgoCD** | GitOps 기반 자동 배포 및 동기화 |
-| **Tekton** | 쿠버네티스 네이티브 CI/CD 파이프라인 |
-| **Traefik** | 인그레스 컨트롤러로 서버 오버헤드 감소 |
+<div align="center">
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![Tekton](https://img.shields.io/badge/Tekton-FD495C?style=for-the-badge&logo=tekton&logoColor=white)
+![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=for-the-badge&logo=traefik&logoColor=white)
+
+</div>
 
 ### 🔒 보안 및 알고리즘
-| 기술 | 사용 이유 |
-|------|-----------|
-| **AES-256** | 256비트 키로 메시지 암호화 및 안전한 데이터 저장 |
-| **Aho-Corasick** | 실시간 다중 패턴 검색으로 효율적인 메시지 필터링 |
-| **Spring Security + JWT** | 토큰 기반 인증 및 권한 관리 |
-| **HTTPS/TLS** | 전송 중 데이터 보호 |
+<div align="center">
+
+![AES](https://img.shields.io/badge/AES_256-FF6B6B?style=for-the-badge&logo=security&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white)
+![HTTPS](https://img.shields.io/badge/HTTPS-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)
+
+</div>
+
+---
+
+## 🌳 주요 기능
+
+<div align="center">
+
+| 기능 | 설명                  | 상태 |
+|:---:|:--------------------|:---:|
+| 🎯 **1:1 매칭 시스템** | 스피커-리스너 간 수동/랜덤 매칭  | ![완료](https://img.shields.io/badge/완료-28a745?style=flat-square) |
+| 💬 **실시간 채팅** | WebSocket 기반 실시간 상담 | ![완료](https://img.shields.io/badge/완료-28a745?style=flat-square) |
+| 📰 **매거진 공유** | 경험 기반 정보 공유 플랫폼     | ![완료](https://img.shields.io/badge/완료-28a745?style=flat-square) |
+| 🎁 **포인트 시스템** | 리워드 기반 참여 유도        | ![완료](https://img.shields.io/badge/완료-28a745?style=flat-square) |
+| ⭐ **평가 시스템** | 상호 평가 및 신뢰도 관리      | ![완료](https://img.shields.io/badge/완료-28a745?style=flat-square) |
+
+</div>
+
+### 🔍 핵심 기능 상세
+
+<details>
+<summary>🎯 <b>1:1 매칭 시스템</b></summary>
+
+- **수동 매칭**: 사용자가 직접 고민 내용을 작성하고 적합한 사용자 선택
+- **랜덤 매칭**: 사용자 특성을 고려한 랜덤 사용자 연결
+- **카테고리별 분류**: 학업, 진로, 대인관계, 정신건강, 캠퍼스생활 등
+
+</details>
+
+<details>
+<summary>💬 <b>실시간 채팅 상담</b></summary>
+
+- **WebSocket 기반 실시간 통신**
+- **이모티콘 및 감정 표현 기능**
+- **커스텀폼을 통한 구조화된 상담**
+- **메시지 필터링 및 신고 시스템**
+
+</details>
+
+<details>
+<summary>📰 <b>매거진 정보 공유</b></summary>
+
+- **경험 기반 정보 공유**: 사용자의 실제 경험을 바탕으로 한 정보 제공
+- **카테고리별 분류**: 체계적인 정보 접근 및 검색
+- **관리자 검수**: 정보의 질과 신뢰성 보장
+- **인기 매거진**: 좋아요 기반 양질의 콘텐츠 추천
+
+</details>
+
+---
+
+## 🏛️ 시스템 아키텍처
+
+<div align="center">
+
+```mermaid
+graph TB
+    User[👤 사용자] --> PWA[📱 React PWA]
+    PWA --> API[🔗 API Gateway]
+    API --> Auth[🔐 인증 서비스]
+    API --> Match[🎯 매칭 서비스]
+    API --> Chat[💬 채팅 서비스]
+    API --> Magazine[📰 매거진 서비스]
+    API --> Point[🎁 포인트 서비스]
+    
+    Auth --> MySQL[(🗄️ MySQL)]
+    Match --> MySQL
+    Chat --> Redis[(🔴 Redis)]
+    Magazine --> MySQL
+    Point --> MySQL
+    
+    Chat --> Kafka[📡 Apache Kafka]
+    
+    subgraph "☁️ AWS Infrastructure"
+        API
+        Auth
+        Match
+        Chat
+        Magazine
+        Point
+        MySQL
+        Redis
+        Kafka
+    end
+```
+
+</div>
 
 ---
 
@@ -148,46 +221,96 @@
 
 ### 📋 개발 컨벤션
 
-#### Git Flow
-- **main**: 최종 배포 브랜치
-- **dev**: 주요 개발 브랜치
-- **feat**: 기능 개발 브랜치
+<div align="center">
 
-#### Commit Convention
+| 브랜치 | 용도 | 예시 |
+|:---:|:---|:---:|
+| `main` | 최종 배포 브랜치 | ![배포](https://img.shields.io/badge/배포-007ACC?style=flat-square) |
+| `dev` | 주요 개발 브랜치 | ![개발](https://img.shields.io/badge/개발-28a745?style=flat-square) |
+| `feat` | 기능 개발 브랜치 | ![기능](https://img.shields.io/badge/기능-FFC107?style=flat-square) |
+
+</div>
+
+#### 📝 Commit Convention
 ```
-feat: 새로운 기능 추가
-fix: 버그 수정
-docs: 문서 수정
-style: 코드 포맷팅
-refactor: 코드 리팩토링
-test: 테스트 코드 추가
-chore: 빌드 업무 수정
+✨ feat: 새로운 기능 추가
+🐛 fix: 버그 수정
+📚 docs: 문서 수정
+💄 style: 코드 포맷팅
+♻️ refactor: 코드 리팩토링
+✅ test: 테스트 코드 추가
+⚙️ chore: 빌드 업무 수정
 ```
 
 ### 🛠️ 협업 도구
-- **Slack**: 데일리 스크럼 및 실시간 소통
-- **Notion**: 회의록 및 기능 문서 관리
-- **Figma**: UI/UX 디자인 및 프로토타입
-- **Jira**: 작업 관리 및 이슈 트래킹
-- **GitHub**: 코드 관리 및 CI/CD 연동
+
+<div align="center">
+
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+</div>
 
 ---
 
 ## 🚀 CI/CD 파이프라인
 
-### GitOps 기반 자동화 배포
-```
-개발자 코드 푸시 → GitHub Webhook → Tekton 파이프라인 실행 
-→ K3s 배포 → ArgoCD 동기화 → Traefik 라우팅 → Slack 알림
+<div align="center">
+
+```mermaid
+graph LR
+    A[👨‍💻 개발자] --> B[📤 코드 푸시]
+    B --> C[🔗 GitHub Webhook]
+    C --> D[⚙️ Tekton 파이프라인]
+    D --> E[🏗️ Docker 빌드]
+    E --> F[📦 이미지 레지스트리]
+    F --> G[🚀 K3s 배포]
+    G --> H[🔄 ArgoCD 동기화]
+    H --> I[🌐 Traefik 라우팅]
+    I --> J[📱 서비스 운영]
+    J --> K[💬 Slack 알림]
 ```
 
-### 배포 프로세스
-1. **소스 코드 복제** 및 빌드 실행
-2. **도커 이미지 생성** 및 레지스트리 푸시
-3. **Kubernetes 매니페스트 업데이트**
-4. **ArgoCD를 통한 자동 배포**
-5. **Slack을 통한 배포 결과 알림**
+</div>
+
+### ⚡ 배포 프로세스
+1. **📥 소스 코드 복제** 및 빌드 실행
+2. **🐳 도커 이미지 생성** 및 레지스트리 푸시
+3. **📝 Kubernetes 매니페스트 업데이트**
+4. **🔄 ArgoCD를 통한 자동 배포**
+5. **📢 Slack을 통한 배포 결과 알림**
 
 ---
 
+## 📊 프로젝트 성과
+
+<div align="center">
+
+</div>
+
+### 🎯 기대효과
+- **📈 대학 생활 만족도 향상**: 체계적인 상담 시스템을 통한 학생 복지 증진
+- **🤝 졸업생-재학생 네트워크 구축**: 지속가능한 멘토링 생태계 조성
+- **🔒 안전한 소통 문화 정착**: 신뢰할 수 있는 대학 커뮤니티 플랫폼 제공
+- **💡 정보 격차 해소**: 균등한 정보 접근 기회 제공
+
+---
+
+<div align="center">
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,50:7C3AED,100:EC4899&height=120&section=footer)
+
 **🎓 2025 아주대학교 캡스톤 디자인 프로젝트**
+
+![GitHub last commit](https://img.shields.io/github/last-commit/capstone-mindmate/mindmate?style=flat-square&color=4F46E5)
+![GitHub repo size](https://img.shields.io/github/repo-size/capstone-mindmate/mindmate?style=flat-square&color=7C3AED)
+![Lines of code](https://img.shields.io/tokei/lines/github/capstone-mindmate/mindmate?style=flat-square&color=EC4899)
+
+---
+
+**Made with ❤️ by MindMate Team**
+
+</div>
